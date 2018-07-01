@@ -44,6 +44,7 @@ class App < Sinatra::Base
     else
       answer = "no bueno"
     end
-    answer
+    answer.to_s
   end
+  
 end
